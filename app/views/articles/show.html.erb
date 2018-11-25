@@ -1,0 +1,12 @@
+<h1>Article detail</h1>
+
+<p>
+  Title:<br/>
+  <%= @article.title %>
+</p>
+<p>
+  Content:<br/>
+  <%= @article.description %>
+</p>
+<%= link_to "Edit this article", edit_article_path(@article) %> |git
+<%= link_to "Back to articles list", articles_path %>
