@@ -1,7 +1,9 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
+# Autoprefixer
+gem 'autoprefixer-rails'
 # Bootstrap
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
