@@ -1,0 +1,21 @@
+<% if obj.errors.any? %>
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <div class="card card-danger">
+        <div class="card-header">
+          <h2 class="text-danger">
+            <%= pluralize(obj.errors.count,"error") %>
+            prevented the birth of a new soul jewel
+          </h2>
+          <div class="card-body">
+            <ul>
+              <% obj.errors.full_messages.each do |msg| %>
+                <li class="text-danger"><%= msg %></li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

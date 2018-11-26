@@ -1,0 +1,71 @@
+
+
+@import "bootstrap";
+.navbar-expand-md {
+  background: black;
+}
+#logo{
+  float: left;
+  font-size: 1.7em;
+  color: aqua;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#logo:hover{
+  color: #B00100;
+  text-decoration: none;
+}
+.center {
+  text-align: center;
+}
+.jumbotron{
+  background-image: asset_url('jumback.jpg');
+  background-size: cover;
+  height: 550px;
+  margin-top: 2em;
+}
+.jumbotron h1 {
+  color: #BBBBBB;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.btn-xlarge{
+  font-size: 1.7em;
+  background-color: #2E2F30;
+}
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+.article-title{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.article-body{
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+footer a:hover{
+  color: #222;
+}
+footer small{
+  float: left;
+}
+footer ul{
+  float: right;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
